@@ -9,6 +9,8 @@ class MergeSort {
 
   sort() {
     let { arr } = this
+    if (!arr || !arr.length)
+      return
     this.mergeSort(0, arr.length - 1)
     console.log(arr)
   }
