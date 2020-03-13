@@ -1,5 +1,5 @@
 # 孙志豪（前端工程师）
-- 本科/天津科技大学/物联网工程 /CET-6
+- 本科/天津科技大学/物联网工程/CET-6
 - 手机/微信：17600695626
 - Email：chyhoosun@gmail.com
 - Github：https://github.com/cxon626
@@ -18,6 +18,8 @@
 熟练使用命令行 Git 管理项目版本，并有 SVN 使用经验。可独立开发微信公众号及 Chrome 扩展。
 
 ## 工作经历
+### 小帮规划（05/2019 - ）
+
 ### 最前台科技（11/2017 - 05/2019）
 #### 诺文（ECNOVA）
 `React` `Redux` `Typescript` `SCSS` `MobX` `BlueprintJS` `amCharts`
@@ -45,5 +47,5 @@
 
 ## 其他经历
 在校期间负责运营维护校官方微信，使用 PHP 及 MySQL 实现公众号后端逻辑与交互，根据学籍数据实现多项校内服务功能，实现累计四万余校内外用户增长。
-个人公众号（Seeleed）及网站（[http://seeleed.com](http://seeleed.com)）曾经营短网址、影视下载及付费 VPN 服务，用户遍及多国。
+个人公众号（Seeleed）及网站（[http://seeleed.com](http://seeleed.com)）曾经营短网址、影视下载等服务，用户遍及多国。
 爬取过境外政府网站数据，并用 NodeJS/Express 实现后端，以此制作旅游类 Chrome 插件（[台湾自由行助手](https://chrome.google.com/webstore/detail/台灣自由行助手-taiwan-visa-data/fcgmbjlkgbljgcbkaambjfmpobbkannn)）。

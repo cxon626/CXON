@@ -1,5 +1,6 @@
 /**
  * 快速排序
+ * O(n*lgn)
  */
 
 class QuickSort {

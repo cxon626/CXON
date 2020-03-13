@@ -1,5 +1,5 @@
 # 孙志豪（前端工程师）
-- 本科/天津科技大学/物联网工程 /CET-6
+- 本科/天津科技大学/物联网工程/CET-6
 - 手机/微信：17600695626
 - Email：chyhoosun@gmail.com
 - Github：https://github.com/cxon626
@@ -18,6 +18,8 @@
 熟练使用命令行 Git 管理项目版本，并有 SVN 使用经验。可独立开发微信公众号及 Chrome 扩展。
 
 ## 工作经历
+### 小帮规划（05/2019 - ）
+
 ### 最前台科技（11/2017 - 05/2019）
 #### 诺文（ECNOVA）
 `React` `Redux` `Typescript` `SCSS` `MobX` `BlueprintJS` `amCharts`
