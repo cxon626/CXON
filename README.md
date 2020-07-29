@@ -5,11 +5,11 @@
 - Github：https://github.com/cxon626
 
 ## 个人经历
-主要工作基于 React/Redux/TypeScript、LESS 开发 SPA 单页应用，以及微信小程序。
+主要工作基于 React/TypeScript/LESS 开发 SPA 单页应用，以及微信小程序。
 
-掌握原生 JS 与 jQuery ，可配合使用 AJAX、JSONP、DOM 等技术。
+过往工作中使用过 Redux、Vue、SASS、PHP、MySQL、Gulp 等，
 
-熟悉 Vue、SASS、PHP、MySQL、Gulp 的使用，熟悉单例模式、工厂模式、订阅/发布模式等设计模式。
+掌握原生 JS 与 jQuery ，可配合使用 AJAX、JSONP、DOM 等技术。熟悉单例模式、工厂模式、订阅/发布模式等设计模式。
 
 有 Express、UmiJS 的开发经验，工作中应用过 Go 语言及 eCharts、amCharts 等插件。
 
@@ -17,7 +17,7 @@
 
 ## 工作经历
 ### 小帮规划（05/2019 - ）
-`UmiJS` `Express` `React` `ReactHooks` `Typescript`
+`React` `ReactHooks` `Typescript` `UmiJS` `Express` `SSR`
 
 使用 Express/MobX/React 制作多种保险课、财商课移动端销售页面，及多种形式投放所需落地页。
 
