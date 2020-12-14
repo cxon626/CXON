@@ -5,7 +5,7 @@
 - Github：https://github.com/cxon626
 
 ## 个人经历
-工作基于 React/TypeScript/LESS 开发 SPA 单页应用，以及微信小程序。
+工作基于 React/TypeScript/LESS 开发中后台、Wap 端落地页及微信小程序等。
 
 过往工作中使用过 Redux、Vue、SASS、PHP、MySQL、Gulp 等，
 
@@ -23,7 +23,7 @@
 
 使用 Vue 维护开发公司旧版销售数据、课程内容及人员管理后台。
 
-参与重构以上部分为基于 UmiJS/React/ReactHooks/TypeScript 的新版本。
+参与重构以上部分为应用了 EggJS/UmiJS/React/ReactHooks/TypeScript 的新版本。
 
 在工作中处理大量旧系统版本及不同机型兼容问题。
 
