@@ -5,25 +5,28 @@
 - Github：https://github.com/cxon626
 
 ## 个人经历
-工作基于 React/TypeScript/LESS 开发中后台、Wap 端落地页及微信小程序等。
+工作中使用 React/TypeScript/LESS 开发中后台、落地页、商城项目及微信小程序等。
 
-过往工作中使用过 Redux、Vue、SASS、PHP、MySQL、Gulp 等，
+过往工作中使用过 Redux、Vue、SASS、PHP、MySQL、Gulp、jQuery 等，
 
-掌握原生 JS 与 jQuery ，可配合使用 AJAX、JSONP、DOM 等技术。熟悉单例模式、工厂模式、订阅/发布模式等设计模式。
+掌握原生 JS 开发 ，可配合使用 AJAX、JSONP、DOM 等技术。熟悉单例模式、工厂模式、订阅/发布模式等设计模式。
 
 有 Express、EggJS 的开发经验，工作中应用过 Go 语言及 eCharts、amCharts、AntV 等插件。
 
-熟练使用命令行 Git 管理项目版本，在学校工作及实习中接触了 SVN。并开发过微信公众号及 Chrome 扩展。
+熟悉命令行 Git 管理项目版本，在学校工作及实习中接触了 SVN。有微信公众号及 Chrome 扩展开发经验。
 
 ## 工作经历
+### 尚德机构（12/2020 - ）
+`React` `ReactHooks` `Taro` `Wepy` `jQuery`
+
+开发并维护公司直播、商城、中台、小程序项目，参与公司 SaaS 转型，推动代码 TS 化。
+
 ### 小帮规划（05/2019 - 11/2020）
 `React` `ReactHooks` `Typescript` `EggJS` `UmiJS` `Express` `SSR`
 
-使用 Express/MobX/React 制作多种保险课、财商课移动端销售页面，及多种形式投放所需落地页、保险问卷、SEO 广告站点。
+开发多个 SSR 落地页及问卷项目，并应用了 Express、Mobx 等。
 
-使用 Vue 维护开发公司旧版销售数据、课程内容及人员管理后台。
-
-参与重构以上部分为应用了 EggJS/UmiJS/React/ReactHooks/TypeScript 的新版本。
+参与重构原 Vue 中台为应用了 EggJS/UmiJS/React/ReactHooks/TypeScript 的新版本。
 
 在工作中处理大量旧系统版本及不同机型兼容问题。
 
@@ -31,7 +34,7 @@
 #### 诺文（ECNOVA）
 `React` `Redux` `Typescript` `SCSS` `MobX` `BlueprintJS` `amCharts`
 
-该 OA 系统为公司供应链部门核心，实现销售、发货、订单、货品管理的 CRUD 等功能，使用 amCharts 提供大量可视化销售、运营、仓库状况数据浏览。经历该项目从使用 React/Redux 搭建到转为用 React/MobX 重构。
+为公司供应链部门核心中台，实现销售、发货、订单、货品管理等功能，并用 amCharts 提供大量销售、运营、仓库状况数据可视化。经历该项目从使用 React/Redux 搭建到转为用 React/MobX 重构。
 #### TypeScript 小程序项目
 `微信小程序` `Gulp` `TypeScript`
 
