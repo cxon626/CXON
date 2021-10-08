@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://cxon.seeleed.com/blog/"/>
-  <updated>2020-03-24T15:02:11.375Z</updated>
+  <updated>2021-10-08T06:19:16.853Z</updated>
   <id>https://cxon.seeleed.com/blog/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>在刷入梅林韌體的斐訊 K3 中安裝第三方應用</title>
+    <link href="https://cxon.seeleed.com/blog/2021/10/08/install-a-koolshare-pack-in-phicomm-k3/"/>
+    <id>https://cxon.seeleed.com/blog/2021/10/08/install-a-koolshare-pack-in-phicomm-k3/</id>
+    <published>2021-10-08T06:00:00.000Z</published>
+    <updated>2021-10-08T06:19:16.853Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Router" scheme="https://cxon.seeleed.com/blog/tags/Router/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何搭建本地 rtmp 伺服器並使用 GoPro 推流</title>
     <link href="https://cxon.seeleed.com/blog/2020/03/24/how-to-build-a-local-rtmp-server/"/>
     <id>https://cxon.seeleed.com/blog/2020/03/24/how-to-build-a-local-rtmp-server/</id>
     <published>2020-03-24T13:37:01.000Z</published>
-    <updated>2020-03-24T15:02:11.375Z</updated>
+    <updated>2021-10-08T05:27:01.543Z</updated>
     
     <summary type="html">
     
@@ -46,7 +71,7 @@
     <link href="https://cxon.seeleed.com/blog/2020/03/24/how-to-use-home-brew-in-china/"/>
     <id>https://cxon.seeleed.com/blog/2020/03/24/how-to-use-home-brew-in-china/</id>
     <published>2020-03-24T13:13:17.000Z</published>
-    <updated>2020-03-24T13:38:10.183Z</updated>
+    <updated>2021-10-08T05:27:01.543Z</updated>
     
     <summary type="html">
     
@@ -71,7 +96,7 @@
     <link href="https://cxon.seeleed.com/blog/2020/03/14/memories-during-the-covid-19-incident/"/>
     <id>https://cxon.seeleed.com/blog/2020/03/14/memories-during-the-covid-19-incident/</id>
     <published>2020-03-13T19:46:28.000Z</published>
-    <updated>2020-04-13T12:14:30.265Z</updated>
+    <updated>2021-10-08T05:27:01.543Z</updated>
     
     <summary type="html">
     

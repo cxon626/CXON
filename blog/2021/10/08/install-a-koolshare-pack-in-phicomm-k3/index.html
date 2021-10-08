@@ -5,15 +5,15 @@
 <head>
   <meta charset="UTF-8">
   
-  <title>在國內如何安裝並使用 homebrew | CXON Ejact</title>
+  <title>在刷入梅林韌體的斐訊 K3 中安裝第三方應用 | CXON Ejact</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
   
   <meta name="author" content="cxon626">
   
   <meta name="description"
-    content="眾所周知的原因在國內搞這些東西很麻煩，那我們該如何在 Mac 上順利使用 homebrew 呢，跟隨以下步驟可有效解決問題…
+    content="最近把老家接灰的一台斐訊 K3 刷入梅林韌體後帶到北京，卻發現 Koolshare 軟件中心無法安裝第三方應用，苦思冥想後我是這樣解決的…
 
-最近因為 Chrome 上面一個扒視頻的插件在我升級系統後佔用了極高的內存，在沒定位到問題的前提下我就錯誤地重置了系統，使得好多東西都要重新來裝載，最困擾我的是 homeb">
+刷機第一步要選擇合適的韌體，這裡我選擇了 G 大的 CFE 適配版，這一版韌體基於 Asuswrt-merlin.ng 源碼直譯，圖形化及可視化方面做了較多適">
   
   
   
@@ -74,15 +74,15 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/blog/2020/03/24/how-to-use-home-brew-in-china/" title="在國內如何安裝並使用 homebrew" itemprop="url">在國內如何安裝並使用 homebrew</a>
+      <a href="/blog/2021/10/08/install-a-koolshare-pack-in-phicomm-k3/" title="在刷入梅林韌體的斐訊 K3 中安裝第三方應用" itemprop="url">在刷入梅林韌體的斐訊 K3 中安裝第三方應用</a>
   </h1>
   <p class="article-author">By
     
       <a href="https://cxon.seeleed.com/blog" title="cxon626">cxon626</a>
     </p>
   <p class="article-time">
-    <time datetime="2020-03-24T13:13:17.000Z" itemprop="datePublished">24-03-2020</time>
-    Updated:<time datetime="2021-10-08T05:27:01.543Z" itemprop="dateModified">08-10-2021</time>
+    <time datetime="2021-10-08T06:00:00.000Z" itemprop="datePublished">08-10-2021</time>
+    Updated:<time datetime="2021-10-08T06:19:16.853Z" itemprop="dateModified">08-10-2021</time>
     
   </p>
 </header>
@@ -91,31 +91,22 @@
 		
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">Contents</strong>
-		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#安裝-homebrew"><span class="toc-number">1.</span> <span class="toc-text">安裝 homebrew</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安裝-homebrew-core"><span class="toc-number">2.</span> <span class="toc-text">安裝 homebrew-core</span></a></li></ol>
+		
 		</div>
 		
 		<blockquote>
-<p>眾所周知的原因在國內搞這些東西很麻煩，那我們該如何在 Mac 上順利使用 homebrew 呢，跟隨以下步驟可有效解決問題…</p>
+<p>最近把老家接灰的一台斐訊 K3 刷入梅林韌體後帶到北京，卻發現 Koolshare 軟件中心無法安裝第三方應用，苦思冥想後我是這樣解決的…</p>
 </blockquote>
-<p>最近因為 Chrome 上面一個扒視頻的插件在我升級系統後佔用了極高的內存，在沒定位到問題的前提下我就錯誤地重置了系統，使得好多東西都要重新來裝載，最困擾我的是 homebrew 相關的問題。</p>
-<h2 id="安裝-homebrew"><a href="#安裝-homebrew" class="headerlink" title="安裝 homebrew"></a>安裝 homebrew</h2><p>官方咒語是這樣子的，但它並不管用：<br><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></p>
-<p>所以換用這句，先將文件下載到電腦：<br><code>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install &gt;&gt; brew_install</code></p>
-<p>修改該 brew_install 文件，替換為中科大源：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># BREW_REPO &#x3D; &quot;https:&#x2F;&#x2F;github.com&#x2F;Homebrew&#x2F;brew&quot;.freeze</span><br><span class="line">BREW_REPO &#x3D; &quot;git:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;brew.git&quot;.freeze</span><br></pre></td></tr></table></figure>
-
-<h2 id="安裝-homebrew-core"><a href="#安裝-homebrew-core" class="headerlink" title="安裝 homebrew-core"></a>安裝 homebrew-core</h2><p>然後用 <code>ruby ./brew_install</code> 进行安装，<br>不过安裝過程會卡在 <code>Cloning into &#39;/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core&#39;...</code> 這句，<br>此時 ctrl + c 結束，用下面這幾句繼續換源：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p &#x2F;usr&#x2F;local&#x2F;Homebrew&#x2F;Library&#x2F;Taps&#x2F;homebrew&#x2F;</span><br><span class="line">cd &#x2F;usr&#x2F;local&#x2F;Homebrew&#x2F;Library&#x2F;Taps&#x2F;homebrew</span><br><span class="line">git clone https:&#x2F;&#x2F;mirrors.ustc.edu.cn&#x2F;homebrew-core.git</span><br></pre></td></tr></table></figure>
-
-<p>配置完成後 Teriminal 鍵入 <code>brew -v</code> 出現如下訊息代表已安裝成功</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Homebrew 2.2.5</span><br><span class="line">Homebrew&#x2F;homebrew-core (git revision 5c96; last commit 2020-03-01)</span><br></pre></td></tr></table></figure>
-
+<p>刷機第一步要選擇合適的韌體，這裡我選擇了 G 大的 <a href="https://www.right.com.cn/forum/thread-4031512-1-1.html" target="_blank" rel="noopener">CFE 適配版</a>，這一版韌體基於 Asuswrt-merlin.ng 源碼直譯，圖形化及可視化方面做了較多適配，個人來講很是推薦。</p>
+<p>不過我個人在使用中遇到了 Koolshare 軟件中心內無法離線上傳第三方應用軟體的問題，對此我的解決辦法是 SSH 上傳包解壓併安裝，相關步驟羅列如下。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"># 第一步先傳入第三方軟體</span><br><span class="line">scp -P 6688 &#x2F;Users&#x2F;cxon626&#x2F;Desktop&#x2F;第三方應用名稱.tar.gz 用戶名@192.168.50.1:&#x2F;tmp</span><br><span class="line"></span><br><span class="line"># 然後解壓到 &#x2F;tmp 文件目錄下</span><br><span class="line">tar -zxvf 第三方應用名稱.tar.gz</span><br><span class="line"></span><br><span class="line"># 進入解壓後的資料夾</span><br><span class="line">cd &#x2F;第三方應用名稱</span><br><span class="line"></span><br><span class="line"># 賦予 install.sh 文件可執行性</span><br><span class="line">chmod a+x install.sh</span><br><span class="line"></span><br><span class="line"># 執行</span><br><span class="line">sh install.sh</span><br><span class="line"></span><br><span class="line"># 進入 &#x2F;tmp 文件目錄</span><br><span class="line">cd &#x2F;tmp</span><br><span class="line"></span><br><span class="line"># 最後記得刪掉傳入的應用節約空間</span><br><span class="line">rm -rf 第三方應用名稱.tar.gz</span><br></pre></td></tr></table></figure>
   
 	</div>
 		<footer class="article-footer clearfix">
 
   <div class="article-tags">
   
-  <span></span> <a href="/blog/tags/Mac/">Mac</a>
+  <span></span> <a href="/blog/tags/Router/">Router</a>
   </div>
 
 
@@ -123,7 +114,7 @@
 
 <div class="article-share" id="share">
 
-  <div data-url="https://cxon.seeleed.com/blog/2020/03/24/how-to-use-home-brew-in-china/" data-title="在國內如何安裝並使用 homebrew | CXON Ejact" data-tsina="" class="share clearfix">
+  <div data-url="https://cxon.seeleed.com/blog/2021/10/08/install-a-koolshare-pack-in-phicomm-k3/" data-title="在刷入梅林韌體的斐訊 K3 中安裝第三方應用 | CXON Ejact" data-tsina="" class="share clearfix">
   </div>
 
 </div>
@@ -132,19 +123,11 @@
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/blog/2020/03/24/how-to-build-a-local-rtmp-server/" title="如何搭建本地 rtmp 伺服器並使用 GoPro 推流">
-  <strong>PREVIOUS:</strong><br/>
-  <span>
-  如何搭建本地 rtmp 伺服器並使用 GoPro 推流</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/blog/2020/03/14/memories-during-the-covid-19-incident/"  title="2020 春節記憶">
+<a href="/blog/2020/03/24/how-to-build-a-local-rtmp-server/"  title="如何搭建本地 rtmp 伺服器並使用 GoPro 推流">
  <strong>NEXT:</strong><br/> 
- <span>2020 春節記憶
+ <span>如何搭建本地 rtmp 伺服器並使用 GoPro 推流
 </span>
 </a>
 </div>
@@ -157,7 +140,7 @@
 
 <div id="toc" class="toc-aside">
   <strong class="toc-title">Contents</strong>
-  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#安裝-homebrew"><span class="toc-number">1.</span> <span class="toc-text">安裝 homebrew</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安裝-homebrew-core"><span class="toc-number">2.</span> <span class="toc-text">安裝 homebrew-core</span></a></li></ol>
+  
 </div>
 
 <div id="asidepart">

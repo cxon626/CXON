@@ -2,24 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://cxon.seeleed.com/blog/2020/03/14/memories-during-the-covid-19-incident/</loc>
+    <loc>https://cxon.seeleed.com/blog/2021/10/08/install-a-koolshare-pack-in-phicomm-k3/</loc>
     
-    <lastmod>2020-04-13T12:14:30.265Z</lastmod>
+    <lastmod>2021-10-08</lastmod>
     
   </url>
   
   <url>
     <loc>https://cxon.seeleed.com/blog/2020/03/24/how-to-build-a-local-rtmp-server/</loc>
     
-    <lastmod>2020-03-24T15:02:11.375Z</lastmod>
+    <lastmod>2021-10-08</lastmod>
     
   </url>
   
   <url>
     <loc>https://cxon.seeleed.com/blog/2020/03/24/how-to-use-home-brew-in-china/</loc>
     
-    <lastmod>2020-03-24T13:38:10.183Z</lastmod>
+    <lastmod>2021-10-08</lastmod>
     
   </url>
+  
+  <url>
+    <loc>https://cxon.seeleed.com/blog/2020/03/14/memories-during-the-covid-19-incident/</loc>
+    
+    <lastmod>2021-10-08</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>https://cxon.seeleed.com/blog</loc>
+    <lastmod>2021-10-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://cxon.seeleed.com/blog/tags/Mac/</loc>
+    <lastmod>2021-10-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cxon.seeleed.com/blog/tags/Router/</loc>
+    <lastmod>2021-10-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://cxon.seeleed.com/blog/tags/memories/</loc>
+    <lastmod>2021-10-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
   
 </urlset>
